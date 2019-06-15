@@ -37,5 +37,6 @@ export class AuthController {
   }
   @Get('sample')
   getData() {
+    return ;
   }
 }
