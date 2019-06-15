@@ -10,6 +10,7 @@ export class Users {
     email: string;
     @Column()
     passwords: string;
+
     // @OneToOne(type => UserTypes)
     // @JoinColumn()
     // usertypes: UserTypes;
