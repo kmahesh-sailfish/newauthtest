@@ -14,6 +14,8 @@ export class JwtAuthGuard extends AuthGuard('jwt') {
   }
 
   handleRequest(err, user, info) {
+// tslint:disable-next-line: no-console
+    console.log(user);
     if (err || !user) {
       throw err || new UnauthorizedException();
     }
